@@ -1,4 +1,5 @@
 import streamlit as st
+from groq import Groq
 st.set_page_config(page_title="Student Profile",page_icon="🎓",layout="centered")
 st.title("🎓 Student Profile")
 st.caption("My Profile")
